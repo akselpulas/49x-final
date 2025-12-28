@@ -1,0 +1,110 @@
+═══════════════════════════════════════════════════════════════
+  CE49X Final Proje - İlk Adımlar
+═══════════════════════════════════════════════════════════════
+
+✅ ADIM 1: Docker Desktop Kurulumu (Eğer yoksa)
+─────────────────────────────────────────────────────────────
+Docker yüklü değilse:
+1. https://www.docker.com/products/docker-desktop adresinden indirin
+2. Docker Desktop'ı kurun ve başlatın
+3. Docker Desktop'ın çalıştığından emin olun (sistem tepsisinde görünmeli)
+
+✅ ADIM 2: .env Dosyasını Düzenle
+─────────────────────────────────────────────────────────────
+.env dosyası oluşturuldu. Şimdi düzenleyin:
+
+1. .env dosyasını açın (Notepad veya herhangi bir editörle)
+2. OPENAI_API_KEY satırını bulun
+3. "your_openai_api_key_here" yerine gerçek API anahtarınızı yazın
+
+   Örnek:
+   OPENAI_API_KEY=sk-proj-abc123xyz789...
+
+4. Dosyayı kaydedin
+
+⚠️ ÖNEMLİ: API anahtarınız yoksa:
+- OpenAI: https://platform.openai.com/api-keys adresinden alın
+- Anthropic: https://console.anthropic.com/ adresinden alın
+
+✅ ADIM 3: Docker Container'larını Başlat
+─────────────────────────────────────────────────────────────
+PowerShell'de şu komutları çalıştırın:
+
+cd "C:\Users\Asus\Desktop\49X Final"
+docker-compose up -d
+
+Birkaç dakika sürebilir (ilk seferde image'lar indirilecek).
+
+Kontrol etmek için:
+docker-compose ps
+
+Her iki container da "Up" durumunda olmalı.
+
+✅ ADIM 4: Python Paketlerini Yükle
+─────────────────────────────────────────────────────────────
+pip install -r requirements.txt
+
+Bu işlem birkaç dakika sürebilir.
+
+✅ ADIM 5: Veritabanını Test Et
+─────────────────────────────────────────────────────────────
+python setup_database.py
+
+"✅ Database connection successful!" mesajını görmelisiniz.
+
+✅ ADIM 6: (Opsiyonel) Mevcut Verileri Aktar
+─────────────────────────────────────────────────────────────
+Eğer data/ klasöründe CSV veya SQLite dosyalarınız varsa:
+
+python scripts/migrate_to_postgres.py
+
+✅ ADIM 7: Makaleleri Sınıflandır
+─────────────────────────────────────────────────────────────
+python scripts/classify_with_llm.py
+
+İlk çalıştırmada kaç makale sınıflandırmak istediğiniz sorulacak.
+Test için önce 5-10 makale ile deneyin.
+
+✅ ADIM 8: Analiz Yap
+─────────────────────────────────────────────────────────────
+python scripts/analyze_from_db.py
+
+Bu script grafikleri results/ klasörüne kaydedecek.
+
+═══════════════════════════════════════════════════════════════
+  HIZLI KONTROL LİSTESİ
+═══════════════════════════════════════════════════════════════
+
+□ Docker Desktop yüklü ve çalışıyor mu?
+□ .env dosyasında API anahtarı var mı?
+□ docker-compose up -d başarılı mı?
+□ pip install -r requirements.txt tamamlandı mı?
+□ python setup_database.py başarılı mı?
+□ python scripts/classify_with_llm.py çalışıyor mu?
+□ python scripts/analyze_from_db.py grafikler oluşturdu mu?
+
+═══════════════════════════════════════════════════════════════
+  SORUN GİDERME
+═══════════════════════════════════════════════════════════════
+
+❌ Docker komutu bulunamıyor
+   → Docker Desktop'ı başlatın ve PowerShell'i yeniden açın
+
+❌ docker-compose up hatası
+   → Docker Desktop'ın çalıştığından emin olun
+   → Port 5432 ve 5050'in kullanılmadığından emin olun
+
+❌ API anahtarı hatası
+   → .env dosyasını kontrol edin
+   → API anahtarının doğru olduğundan emin olun
+
+❌ Python paket hatası
+   → python --version ile Python 3.8+ olduğundan emin olun
+   → pip install --upgrade pip yapın
+
+═══════════════════════════════════════════════════════════════
+
+Detaylı bilgi için:
+- BASLANGIC.md dosyasına bakın
+- KURULUM.md dosyasına bakın
+

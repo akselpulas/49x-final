@@ -1,0 +1,21 @@
+﻿combination,recency_days,growth_rate_percent,total_article_count,first_appearance,num_periods
+Structural × Predictive Analytics,28,2200.0,144,2025-11-26,2
+Construction Management × Predictive Analytics,29,1340.0,462,2025-11-25,2
+Structural × Generative Design,29,2000.0,44,2025-11-25,2
+Construction Management × Robotics/Automation,29,3420.0000000000005,362,2025-11-25,2
+Transportation × Generative Design,29,1033.3333333333335,37,2025-11-25,2
+Structural × Robotics/Automation,28,1680.0,94,2025-11-26,2
+Transportation × Robotics/Automation,29,1000.0,180,2025-11-25,2
+Environmental Engineering × Predictive Analytics,29,1211.111111111111,127,2025-11-25,2
+Transportation × Predictive Analytics,29,647.3684210526316,161,2025-11-25,2
+Environmental Engineering × Robotics/Automation,28,1120.0,66,2025-11-26,2
+Geotechnical × Robotics/Automation,16,100.0,2,2025-12-08,1
+Construction Management × Generative Design,29,3466.6666666666665,110,2025-11-25,2
+Transportation × Computer Vision,28,262.5,37,2025-11-26,2
+Construction Management × Computer Vision,28,785.7142857142857,69,2025-11-26,2
+Environmental Engineering × Generative Design,23,100.0,18,2025-12-01,1
+Environmental Engineering × Computer Vision,28,400.0,18,2025-11-25,2
+Geotechnical × Predictive Analytics,18,100.0,10,2025-12-06,1
+Structural × Computer Vision,28,525.0,29,2025-11-26,2
+Geotechnical × Computer Vision,16,100.0,1,2025-12-08,1
+Geotechnical × Generative Design,16,100.0,1,2025-12-08,1

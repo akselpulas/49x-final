@@ -1,0 +1,9 @@
+﻿keyword,domain,degree,weighted_degree,betweenness_centrality,community,article_count
+construction,CE,6,496,0.0,0,367
+structural,CE,6,345,0.0,0,260
+concrete,CE,6,222,0.0,0,145
+infrastructure,CE,6,625,0.0,0,631
+bridge,CE,6,271,0.0,0,210
+transportation,CE,6,289,0.0,0,231
+geotechnical,CE,0,0,0.0,1,5
+tunnel,CE,6,80,0.6904761904761905,0,46

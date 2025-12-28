@@ -1,0 +1,16 @@
+﻿keyword,domain,degree,weighted_degree,betweenness_centrality,community,article_count
+construction,CE,7,608,0.0,0,367
+robotics,AI,7,425,0.0,0,260
+structural,CE,7,488,0.0,2,260
+generative ai,AI,7,339,0.0,0,202
+neural networks,AI,7,193,0.4835164835164836,2,101
+concrete,CE,7,231,0.07692307692307693,2,145
+machine learning,AI,7,473,0.0,2,253
+infrastructure,CE,7,1049,0.0,0,631
+artificial intelligence,AI,7,939,0.0,0,547
+bridge,CE,7,340,0.0,0,210
+automation,AI,7,648,0.0,3,362
+transportation,CE,7,400,0.0,3,231
+geotechnical,CE,0,0,0.0,1,5
+computer vision,AI,6,169,0.1098901098901099,0,97
+tunnel,CE,6,70,0.5164835164835165,3,46

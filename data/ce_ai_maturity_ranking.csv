@@ -1,0 +1,6 @@
+﻿Rank,CE_Area,AI_Maturity_Score,Article_Count,Article_Count_Normalized,AI_Diversity_Score,Unique_AI_Techs,Avg_AI_Techs_Per_Article,Avg_Location_Quotient,Recent_Articles_12M,Older_Articles,Growth_Rate_Pct,Total_AI_Occurrences
+1,Construction Management,97.4,686,100.0,100.0,4,1.46,0.982,686,0,100.0,1003
+2,Transportation,80.8,292,42.6,100.0,4,1.42,1.01,292,0,100.0,415
+3,Structural,79.7,221,32.2,100.0,4,1.41,1.095,221,0,100.0,311
+4,Environmental Engineering,73.7,165,24.1,100.0,4,1.39,0.94,165,0,100.0,229
+5,Geotechnical,65.7,10,1.5,100.0,4,1.4,0.886,10,0,100.0,14
