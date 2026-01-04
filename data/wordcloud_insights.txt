@@ -1,6 +1,0 @@
-WORD CLOUD INTERPRETIVE INSIGHTS
-======================================================================
-
-1. GenAI-in-CE vocabulary is dominated by discusses, importance, highlights, market, generative and optimization algorithms, parametric design, and automated generation.
-2. Robotics-in-CE vocabulary highlights market, technology, industry, growth, billion and autonomous systems, robotic construction, and automated processes.
-3. Contrast analysis shows that Transportation+AI is distinctively associated with transportation, logistics, travel, while Structural+AI emphasizes engineering, silver, cells.
